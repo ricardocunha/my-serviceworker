@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.January {width: 100%; background-color: #04AA6D; height: 10px;} /* Green */
+.February {width: 80%; background-color: #2196F3; height: 10px;} /* Blue */
+.March {width: 65%; background-color: #f44336; height: 10px;} /* Red */
+.April {width: 60%; background-color: #808080; height: 10px;} /* Dark Grey */
+.May {width: 60%; background-color: #10fF80; height: 10px;} /* Dark Grey */
+.June {width: 60%; background-color: #310090; height: 10px;} /* Dark Grey */
+.July {width: 60%; background-color: #770009; height: 10px;} /* Dark Grey */
+.August {width: 60%; background-color: #505050; height: 10px;} /* Dark Grey */
+.September {width: 60%; background-color: #404040; height: 10px;} /* Dark Grey */
+.October {width: 60%; background-color: #202020; height: 10px;} /* Dark Grey */
+.November {width: 60%; background-color: #101080; height: 10px;} /* Dark Grey */
+.December {width: 60%; background-color: #008080; height: 10px;} /* Dark Grey */
